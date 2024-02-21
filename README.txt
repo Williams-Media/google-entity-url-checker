@@ -19,18 +19,19 @@ Before running this script, ensure you have the following:
 1. Clone this repository or download the script.
 2. Install the required Python packages:
    ```bash
-   pip install requests beautifulsoup4 google-cloud-language  ```
+   pip install requests beautifulsoup4 google-cloud-language
+   ```
 3. Set up your Google Cloud service account and download the service account key JSON file.
 
-##Usage
-- Set the service_account_path variable in the script to the path of your Google service account key JSON file.
+## Usage
+- Set the `service_account_path` variable in the script to the path of your Google service account key JSON file.
 - Run the script from the command line:
-```bash
-python entity_analyzer.py ```
+   ```bash
+   python entity_analyzer.py
+   ```
 - When prompted, enter the full URL of the web page you want to analyze.
 
-##Output
-The script will generate a CSV file named entity_analysis_results.csv in the same directory, containing the entities found in the web page, their types, and their salience scores.
-
+## Output
+The script will generate a CSV file named `entity_analysis_results.csv` in the same directory, containing the entities found in the web page, their types, and their salience scores.
 
 <center>❤️ <a href="https://williamsmedia.co">Williams Media SEO Team</a></center>
